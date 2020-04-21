@@ -5,6 +5,8 @@ function Header() {
         <div>
             <header>
                 <a href="#">Home</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
             </header>
         </div>
     )
