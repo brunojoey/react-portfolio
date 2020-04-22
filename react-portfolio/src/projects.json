@@ -1,39 +1,39 @@
 [
     {
         "title": "Note Taker",
-        "image": "",
-        "github": "",
-        "deployed": ""
+        "image": "../../public/images/note-taker-demo.gif",
+        "github": "https://github.com/brunojoey/note-taker",
+        "deployed": "https://afternoon-tor-09367.herokuapp.com/"
     },
     {
-        "title": "Geolocation Application",
-        "image": "",
-        "github": "",
-        "deployed": ""
+        "title": "Password Generator",
+        "image": "../../public/images/password-generator-screenshot.jpg",
+        "github": "https://github.com/brunojoey/password-generator",
+        "deployed": "https://brunojoey.github.io/password-generator/"
     },
     {
         "title": "README Generator",
-        "image": "",
-        "github": "",
+        "image": "../../public/images/readme-generator-demo.gif",
+        "github": "https://github.com/brunojoey/readme-generator",
         "deployed": ""
         
     },
     {
-        "title": "Note Taker",
-        "image": "",
-        "github": "",
+        "title": "Budget Tracker",
+        "image": "../../public/images/budget-tracker-demo.gif",
+        "github": "https://github.com/brunojoey/budget-tracker",
+        "deployed": "https://boiling-lake-39406.herokuapp.com/"
+    },
+    {
+        "title": "Employment Management System",
+        "image": "../../public/images/employee-system-demo.gif",
+        "github": "https://github.com/brunojoey/employment-management-system",
         "deployed": ""
     },
     {
-        "title": "Note Taker",
-        "image": "",
-        "github": "",
-        "deployed": ""
-    },
-    {
-        "title": "Note Taker",
-        "image": "",
-        "github": "",
+        "title": "Employee Manager",
+        "image": "../../public/images/employee-summary-screenshot.png",
+        "github": "https://github.com/brunojoey/employee-summary",
         "deployed": ""
     }
 ]
