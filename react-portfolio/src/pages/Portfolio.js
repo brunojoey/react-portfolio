@@ -1,9 +1,15 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import ProjectCard from "../components/Project";
 
 function Portfolio() {
     return (
-        <ProjectCard />
+        <div>
+            <Header />
+            <ProjectCard />
+            <Footer />
+        </div>
     )
 };
 
