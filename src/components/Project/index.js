@@ -7,7 +7,7 @@ function ProjectCard({ title, image, alt, github, deployed }) {
     return (
         projects.map(project => (
             <div className="card projectBody">
-                <Image src={project.image} alt={project.alt} fluid />
+                <Image src={require(project.image)} alt={project.alt} fluid />
                 <div className="card-body">
                     <h3 className="card-title">{project.title}</h3>
                     <a href={project.github} className="btn btn-primary gitHubLink">{project.github}</a>

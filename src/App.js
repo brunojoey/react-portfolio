@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path = "/Home">
+          <Route exact path = {["/", "/Home"]}>
             <Home />
           </Route>
           <Route exact path = "/About">
