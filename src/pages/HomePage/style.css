@@ -1,0 +1,10 @@
+.nameHeader {
+    font-size: 6em;
+};
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: unset;
+}

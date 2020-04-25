@@ -1,31 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "../src/pages/About";
 import Contact from "../src/pages/Contact";
-import Home from "../src/pages/Home";
+import Home from "../src/pages/HomePage/Home";
 import Portfolio from "../src/pages/Portfolio";
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Switch>
-          <Route>
+          <Route exact path = "/Home">
             <Home />
           </Route>
-          <Route>
+          <Route exact path = "/About">
             <About />
           </Route>
-          <Route>
+          <Route exact path = "/Portfolio">
             <Portfolio />
           </Route>
-          <Route>
+          <Route exact path = "/Contact">
             <Contact />
           </Route>
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
 
   );
 }
