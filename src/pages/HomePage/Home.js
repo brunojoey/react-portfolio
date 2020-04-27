@@ -7,11 +7,11 @@ function Home() {
     return (
         <div>
             <Header />
-            <h1 className="nameHeader">Joseph Angelo Bruno</h1>
-            <section className="welcome">
-                Welcome to my portfolio!
-            </section>
-            <Footer />
+                <h1 className="nameHeader">Joseph Angelo Bruno</h1>
+                <section className="welcome">
+                    Welcome to my portfolio!
+                </section>
+            <Footer className="footer"/>
         </div>
     )
 };

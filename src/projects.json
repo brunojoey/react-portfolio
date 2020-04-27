@@ -1,41 +1,38 @@
 [
     {
         "title": "Note Taker",
-        "image": "../public/images/note-taker-demo.gif",
+        "image": "../src/images/note-taker-demo.gif",
         "alt": "Note Taker Demo Gif",
-        "github": "https://github.com/brunojoey/note-taker",
-        "deployed": "https://afternoon-tor-09367.herokuapp.com/"
+        "link": "https://afternoon-tor-09367.herokuapp.com/"
     },
     {
         "title": "Password Generator",
-        "image": "../public/images/password-generator-screenshot.jpg",
+        "image": "../src/images/password-generator-screenshot.jpg",
         "alt": "Password Generator Image",
-        "github": "https://github.com/brunojoey/password-generator",
-        "deployed": "https://brunojoey.github.io/password-generator/"
+        "link": "https://brunojoey.github.io/password-generator/"
     },
     {
         "title": "README Generator",
-        "image": "../public/images/readme-generator-demo.gif",
+        "image": "../src/images/readme-generator-demo.gif",
         "alt": "README Generator Demo Gif",
-        "github": "https://github.com/brunojoey/readme-generator"
+        "link": "https://github.com/brunojoey/readme-generator"
     },
     {
         "title": "Budget Tracker",
-        "image": "../public/images/budget-tracker-demo.gif",
+        "image": "../src/images/budget-tracker-demo.gif",
         "alt": "Budget Tracker Demo Gif",
-        "github": "https://github.com/brunojoey/budget-tracker",
-        "deployed": "https://boiling-lake-39406.herokuapp.com/"
+        "link": "https://boiling-lake-39406.herokuapp.com/"
     },
     {
         "title": "Employment Management System",
-        "image": "../public/images/employee-system-demo.gif",
+        "image": "../src/images/employee-system-demo.gif",
         "alt": "Employee System Demo Gif",
-        "github": "https://github.com/brunojoey/employment-management-system"
+        "link": "https://github.com/brunojoey/employment-management-system"
     },
     {
         "title": "Employee Manager",
-        "image": "../public/images/employee-summary-screenshot.png",
+        "image": "../src/images/employee-summary-screenshot.png",
         "alt": "Employee Summary Image",
-        "github": "https://github.com/brunojoey/employee-summary"
+        "link": "https://github.com/brunojoey/employee-summary"
     }
 ]
