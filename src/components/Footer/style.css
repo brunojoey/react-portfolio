@@ -10,3 +10,8 @@
     max-width: 680px;
     width: auto;
 }
+
+.github, .linkedin, .email {
+    margin-left: 2em;
+    font-weight: bold;
+}

@@ -8,9 +8,9 @@ function Home() {
         <div>
             <Header />
                 <h1 className="nameHeader">Joseph Angelo Bruno</h1>
-                <section className="welcome">
+                <div className="welcome">
                     Welcome to my portfolio!
-                </section>
+                </div>
             <Footer className="footer"/>
         </div>
     )

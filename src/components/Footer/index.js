@@ -6,9 +6,9 @@ function Footer() {
         <footer className="footer">
             <div>
                 <p> Made by Joey Bruno || 2020 </p>
-                <a className="email" href="mailto: brunojoey12@gmail.com"> Send Me an Email! </a>
-                <a href="https://www.github.com/brunojoey">Github</a>
-                <a href="https://www.linkedin.com/in/brunojoey/">LinkedIn</a>
+                <a href="mailto: brunojoey12@gmail.com" className="email"> Send Me an Email! </a>
+                <a href="https://www.github.com/brunojoey" className="github">Github</a>
+                <a href="https://www.linkedin.com/in/brunojoey/" className="linkedin">LinkedIn</a>
             </div>
         </footer>
     );
