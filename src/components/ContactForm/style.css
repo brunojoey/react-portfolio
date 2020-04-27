@@ -1,4 +1,6 @@
-.content {
-    margin: 3em;
-    font-size: 2em;
-}
+.res > a {
+    margin: 2em;
+    font-weight: bold;
+    font-size: 3em;
+};
+

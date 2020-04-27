@@ -1,17 +1,5 @@
-.footer {
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    margin-bottom: .9em;
-    position: bottom;
-}
-
-.container {
-    max-width: 680px;
-    width: auto;
-}
-
 .github, .linkedin, .email {
-    margin-left: 2em;
+    margin: 2em;
     font-weight: bold;
-}
+};
+
