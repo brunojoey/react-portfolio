@@ -1,11 +1,13 @@
 import React from "react";
-import JoeyBruno from "../images/joey-bruno-face.jpg";
+import buildRoutes from "../utils/buildRoutes";
+
+const joeyBruno = "/images/joey-bruno-face.jpg";
 
 function Home() {
     return (
         <div>
                 <h2>Joseph Angelo Bruno</h2>
-                <img src={JoeyBruno} height="500" width="500" alt="Joey Bruno" className="joey"/>
+                <img src={buildRoutes(joeyBruno)} height="300" width="300" alt="Joey Bruno" className="joey"/>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>

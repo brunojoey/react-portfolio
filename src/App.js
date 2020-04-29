@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import buildRoutes from "./utils/buildRoutes";
 import Contact from "../src/pages/Contact";
 import Home from "../src/pages/Home";
 import Portfolio from "../src/pages/Portfolio";
@@ -8,7 +9,6 @@ import Footer from "../src/components/Footer";
 import './App.css';
 
 function App() {
-  const path = process.env.PUBLIC_URL;
 
   return (
     <div className="App">
@@ -16,9 +16,9 @@ function App() {
       <div className="content">
       <Router>
         <Switch>
-          <Route exact path = {path + ["/", "/Home"]} component={Home} />
-          <Route exact path = {path + "/Portfolio"} component={Portfolio} />
-          <Route exact path = {path + "/Contact"} component={Contact} />
+          <Route exact path = {buildRoutes("/"), buildRoutes("/home")} component={Home} />
+          <Route exact path = {buildRoutes("/portfolio")} component={Portfolio} />
+          <Route exact path = {buildRoutes("/contact")} component={Contact} />
         </Switch>
       </Router>
       </div>

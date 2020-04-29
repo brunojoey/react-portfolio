@@ -1,37 +1,25 @@
 [
     {
-        "title": "Note Taker",
-        "image": "../src/images/note-taker-demo.gif",
-        "alt": "Note Taker Demo Gif",
-        "link": "https://afternoon-tor-09367.herokuapp.com/"
-    },
-    {
         "title": "Password Generator",
-        "image": "../src/images/password-generator-screenshot.jpg",
+        "image": "/images/password-generator-screenshot.jpg",
         "alt": "Password Generator Image",
         "link": "https://brunojoey.github.io/password-generator/"
     },
     {
-        "title": "README Generator",
-        "image": "../src/images/readme-generator-demo.gif",
-        "alt": "README Generator Demo Gif",
-        "link": "https://github.com/brunojoey/readme-generator"
+        "title": "Geolocation Dictionary Application",
+        "image": "/images/geolocation-app.png",
+        "alt": "Geolocation Dictionary Image",
+        "link": "https://github.com/brunojoey/geolocation-dictionary-app"
     },
     {
         "title": "Budget Tracker",
-        "image": "../src/images/budget-tracker-demo.gif",
+        "image": "/images/budget-tracker-image.png",
         "alt": "Budget Tracker Demo Gif",
         "link": "https://boiling-lake-39406.herokuapp.com/"
     },
     {
-        "title": "Employment Management System",
-        "image": "../src/images/employee-system-demo.gif",
-        "alt": "Employee System Demo Gif",
-        "link": "https://github.com/brunojoey/employment-management-system"
-    },
-    {
         "title": "Employee Manager",
-        "image": "../src/images/employee-summary-screenshot.png",
+        "image": "/images/employee-summary-screenshot.png",
         "alt": "Employee Summary Image",
         "link": "https://github.com/brunojoey/employee-summary"
     }
