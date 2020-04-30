@@ -16,7 +16,7 @@ function App() {
       <div className="content">
       <Router>
         <Switch>
-          <Route exact path = {buildRoutes("/"), buildRoutes("/home")} component={Home} />
+          <Route exact path = {buildRoutes("/", "/home")} component={Home} />
           <Route exact path = {buildRoutes("/portfolio")} component={Portfolio} />
           <Route exact path = {buildRoutes("/contact")} component={Contact} />
         </Switch>
