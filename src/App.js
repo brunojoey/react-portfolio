@@ -12,17 +12,17 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
       <div className="content">
-      <Router>
-        <Switch>
-          <Route exact path={buildRoutes("/", "/home")} component={Home} />
-          <Route exact path={buildRoutes("/portfolio")} component={Portfolio} />
-          <Route exact path={buildRoutes("/contact")} component={Contact} />
-        </Switch>
-      </Router>
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path={buildRoutes("/", "/home")} component={Home} />
+            <Route exact path={buildRoutes("/portfolio")} component={Portfolio} />
+            <Route exact path={buildRoutes("/contact")} component={Contact} />
+          </Switch>
+          <Footer />
+        </Router>
       </div>
-      <Footer />
     </div>
   );
 }

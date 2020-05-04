@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import {Link} from 'react-router-dom';
 import buildRoutes from "../../utils/buildRoutes";
 import "./style.css";
 
@@ -12,14 +12,9 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href={buildRoutes("/home")}>Home</Nav.Link>
-                <Nav.Link href={buildRoutes("/portfolio")}>Portfolio</Nav.Link>
-                <Nav.Link href={buildRoutes("/contact")}>Contact</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="col-sm-4">
-                    <NavDropdown.Item href={buildRoutes("/home")}>Home</NavDropdown.Item>
-                    <NavDropdown.Item href={buildRoutes("/portfolio")}>Portfolio</NavDropdown.Item>
-                    <NavDropdown.Item href={buildRoutes("/contact")}>Contact</NavDropdown.Item>
-                </NavDropdown>
+                    <Nav.Link to={buildRoutes("/")} as={Link}>Home</Nav.Link>
+                    <Nav.Link to={buildRoutes("/portfolio")} as={Link}>Portfolio</Nav.Link>
+                    <Nav.Link to={buildRoutes("/contact")} as={Link}>Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
