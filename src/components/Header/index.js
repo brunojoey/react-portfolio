@@ -14,7 +14,6 @@ function Header() {
                     <Nav.Link to={buildRoutes("/")} as={Link}>Home</Nav.Link>
                     <Nav.Link to={buildRoutes("/portfolio")} as={Link}>Portfolio</Nav.Link>
                     <Nav.Link to={buildRoutes("/resume")} as={Link}>Resume</Nav.Link>
-                    <Nav.Link to={buildRoutes("/contact")} as={Link}>Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

@@ -20,7 +20,6 @@ function App() {
             <Route exact path={buildRoutes("/", "/home")} component={Home} />
             <Route exact path={buildRoutes("/portfolio")} component={Portfolio} />
             <Route exact path={buildRoutes("/resume")} component={Resume} />
-            <Route exact path={buildRoutes("/contact")} component={Contact} />
           </Switch>
           <Footer />
         </Router>
