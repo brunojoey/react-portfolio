@@ -1,26 +1,30 @@
 [
     {
-        "title": "Password Generator",
-        "image": "/images/password-generator-screenshot.jpg",
-        "alt": "Password Generator Image",
-        "link": "https://brunojoey.github.io/password-generator/"
-    },
-    {
         "title": "Geolocation Dictionary Application",
         "image": "/images/geolocation-app.png",
         "alt": "Geolocation Dictionary Image",
-        "link": "https://github.com/brunojoey/geolocation-dictionary-app"
-    },
-    {
-        "title": "Budget Tracker",
-        "image": "/images/budget-tracker-image.png",
-        "alt": "Budget Tracker Demo Gif",
-        "link": "https://boiling-lake-39406.herokuapp.com/"
+        "link": "https://github.com/brunojoey/geolocation-dictionary-app",
+        "claNM": "geolocationImage"
     },
     {
         "title": "Employee Manager",
         "image": "/images/employee-summary-screenshot.png",
         "alt": "Employee Summary Image",
-        "link": "https://github.com/brunojoey/employee-summary"
+        "link": "https://github.com/brunojoey/employee-summary",
+        "claNM": "employeeSumImage"
+    },
+    {
+        "title": "Password Generator",
+        "image": "/images/password-generator-screenshot.jpg",
+        "alt": "Password Generator Image",
+        "link": "https://brunojoey.github.io/password-generator/",
+        "claNM": "passwordImage"
+    },
+    {
+        "title": "Budget Tracker",
+        "image": "/images/budget-tracker-image.png",
+        "alt": "Budget Tracker Demo Gif",
+        "link": "https://boiling-lake-39406.herokuapp.com/",
+        "claNM": "budgetImage"
     }
 ]

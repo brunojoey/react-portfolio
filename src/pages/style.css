@@ -1,0 +1,109 @@
+/* General Styling */
+
+body {
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+a, .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:after {
+    color: white;
+}
+
+/* End General Styling */
+
+/* Footer Styling */
+footer {
+    padding: .4em 12em 2em 12em;
+    background-color: rgba(0, 0, 70, .1);
+}
+
+.fa {
+    font-size: 1.5em;
+}
+
+/* End Footer Styling */
+
+/* Navbar Styling */
+
+.navigationBar {
+    background-color: rgba(0, 0, 70, .1);
+    font-weight: 700;
+}
+
+/* End Navbar Styling */
+
+/* Resume Page */
+
+.intro, .portfolioHeading, .summary, .techSkills, .education, .experience, .budgetTrackerPro, .employeeSummaryPro, .geolocationPro {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.resumeHeadings, .resumeProjects {
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.resumeLinks:hover, .deployedLinks:hover {
+    background-color: transparent;
+}
+
+/* End Resume Page */
+
+/* Project Page */
+.card {
+    background-color: rgba(0, 0, 100, .1);
+}
+
+.budgetImage, .passwordImage, .employeeSumImage {
+    width: 45em;
+    height: 27em;
+    margin: 1em;
+    border: .5em solid;
+    border-color: rgb(0, 80, 150);
+}
+
+.geolocationImage {
+    width: 30em;
+    height: 27em;
+    margin: 1em;
+    border: .5em solid;
+    border-color: rgb(0, 80, 150);
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.link {
+    margin-top: 10em;
+    display: inline-block;
+    align-items: left;
+    background-color: rgb(28, 181, 224);
+}
+
+.link:hover {
+    background-color: transparent;
+}
+/* End Project Page */
+
+/* Home Page */
+
+.joey {
+    border: .5em solid;
+    border-color: rgb(0, 80, 150);
+}
+
+/* End Home Page */

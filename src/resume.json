@@ -1,0 +1,43 @@
+{
+    "headings": {
+        "heading": ["Joseph Bruno", "Summary", "Technical Skills", "Projects", "Experience", "Education"],
+        "headingClasses": "resumeHeadings",
+        "mailBtn": "mailto: brunojoey12@gmail.com",
+        "portfolioBtn": "https://brunojoey.github.io/react-portfolio"
+    },
+
+    "projects": {
+        "projectOne": {
+            "title": "Employee Summary | Back-End Developer",
+            "description": "This employee application helps you create your employee database into a HTML document with the help of various prompts that include an Intern, an Engineer, and a Manager.",
+            "role": "Responsible for creating the functionality for the application to work.",
+            "utilized": "HTML5 and JavaScript",
+            "codeLink": "https://github.com/brunojoey/employee-summary"
+        },
+        "projectTwo": {
+            "title": "Budget Tracker | Full-Stack Developer",
+            "description": "This is a Budget Tracker application so the user can track a budget and payments.",
+            "role": "Responsible for creating an application with a budget, Node JS, and Mongoose.",
+            "utilized": "Manifest, Node JS, Service Worker, Mongoose, and Heroku for hosting",
+            "deployLink": "https://boiling-lake-39406.herokuapp.com/",
+            "codeLink": "https://github.com/brunojoey/budget-tracker"
+        },
+        "projectThree": {
+            "title": "Geolocation Dictionary Application | Front-End Developer",
+            "description": "This dictionary uses your searches and your location to pinpoint where you are searching from and what are the most popular searches in your area.",
+            "role": " Responsible for co-designing the application",
+            "utilized": "HTML5, Skeleton CSS, JavaScript, and hosting/domain from GitHub Pages",
+            "deployLink": "https://brunojoey.github.io/geolocation-dictionary-app/",
+            "codeLink": "https://github.com/brunojoey/geolocation-dictionary-app"
+        }
+    },
+
+    "content": {
+        "summary": "Full Stack Web Developer with a background in social media providing strong problem-solving skills with a keen eye for aesthetics and presentation. An excellent communicator and collaborator works well in team-based projects and independently with strong interpersonal skills.",
+        "techSkills": "Node.Js, Express, JavaScript, jQuery, React.js, React, GIT, GitHub, MongoDB, MySQL, Postman, Handlebars, HTML, CSS, Bootstrap, Skeleton, Media Queries, APIs, Heroku",
+        "experience": "Rizzy Home: Calhoun, GA | September 2018 – May 2019 | Social Media Manager | Graphic Designer",
+        "experienceParagraph": "Contributions include various social media content and helping to design and organize the Rizzy Home 2019 Catalog to create a cohesive look for Rizzy Home and their products.",
+        "educationVandy": "Vanderbilt University, Nashville, TN | Full Stack Web Development | Coding Certificate | 2020",
+        "educationUTC": "The University of Tennessee at Chattanooga, Chattanooga, TN | Bachelors of Arts | Communications | Spanish"
+    }
+}

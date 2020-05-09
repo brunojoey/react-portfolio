@@ -5,9 +5,9 @@ import ProjectCard from "../components/Project";
 function Portfolio() {
     return (
         <div>
-            <h2>Here Are Some Projects I Have Worked On!</h2>
+            <h2 className="portfolioHeading">Here Are Some Projects I Have Worked On!</h2>
             <Container>
-                <ProjectCard />
+                <ProjectCard fluid />
             </Container>
         </div>
     )

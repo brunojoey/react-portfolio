@@ -4,6 +4,7 @@ import buildRoutes from "./utils/buildRoutes";
 import Contact from "../src/pages/Contact";
 import Home from "../src/pages/Home";
 import Portfolio from "../src/pages/Portfolio";
+import Resume from "../src/pages/Resume";
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
           <Switch>
             <Route exact path={buildRoutes("/", "/home")} component={Home} />
             <Route exact path={buildRoutes("/portfolio")} component={Portfolio} />
+            <Route exact path={buildRoutes("/resume")} component={Resume} />
             <Route exact path={buildRoutes("/contact")} component={Contact} />
           </Switch>
           <Footer />
