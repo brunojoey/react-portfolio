@@ -1,26 +1,34 @@
 import React from "react";
 import projects from "../../projects.json";
 import ContainerDiv from "../Container";
-import {Image, Row, Col } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import buildRoutes from "../../utils/buildRoutes";
 
-function ProjectCard({ title, image, alt, link, claNM }) {
+function ProjectCard({ title, image, alt, github, deploy, description, claNM }) {
     return (
         projects.map(project => (
             <ContainerDiv className="card projectBody mb-3">
                 <Row>
-                    <Col s={10}>
+                    <Col s={5} lg={10}>
                         <h3 className="card-title mt-3 p-3">{project.title}</h3>
                     </Col>
                 </Row>
-                <Row>
-                    <Col s={10}>
+                <Row className="allImages">
+                    <Col s={4} m={6} lg={8}>
                         <Image className={project.claNM} src={buildRoutes(project.image)} alt={project.alt} />
                     </Col>
-                    <Col s={2}>
-                        <a href={project.link} className="btn btn-primary link">Check it Out</a>
-                    </Col>
                 </Row>
+                    <Row>
+                        <Col s={4} m={6} lg={12}>
+                            <p className="description">{project.description}</p>
+                        </Col>
+                    </Row>
+                    <Row className="buttons">
+                        <Col s={4} m={6} lg={10}>
+                            <a href={project.deploy} className="btn btn-primary deploy mb-5">Check it Out</a>
+                            <a href={project.github} className="btn btn-primary githubProject ml-3 mb-5">The Code</a>
+                        </Col>
+                    </Row>
             </ContainerDiv>
         ))
     );

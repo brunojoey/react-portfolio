@@ -3,28 +3,36 @@
         "title": "Geolocation Dictionary Application",
         "image": "/images/geolocation-app.png",
         "alt": "Geolocation Dictionary Image",
-        "link": "https://github.com/brunojoey/geolocation-dictionary-app",
+        "description": "A dictionary application where you are able to find a definition to a specific word and also see where you are searching from.",
+        "github": "https://github.com/brunojoey/geolocation-dictionary-app",
+        "deploy": "https://brunojoey.github.io/geolocation-dictionary-app/",
         "claNM": "geolocationImage"
     },
     {
-        "title": "Employee Manager",
-        "image": "/images/employee-summary-screenshot.png",
-        "alt": "Employee Summary Image",
-        "link": "https://github.com/brunojoey/employee-summary",
-        "claNM": "employeeSumImage"
+        "title": "Exercise Tracker",
+        "image": "/images/exercise-tracker-screenshot.png",
+        "alt": "Exercise Tracker Image",
+        "description": "Website to track your exercise activity through various workouts.",
+        "github": "https://github.com/brunojoey/exercise-tracker",
+        "deploy": "https://dry-badlands-01537.herokuapp.com/",
+        "claNM": "exerciseTrackerImage"
     },
     {
         "title": "Password Generator",
         "image": "/images/password-generator-screenshot.jpg",
         "alt": "Password Generator Image",
-        "link": "https://brunojoey.github.io/password-generator/",
+        "description": "An application to generate a password through characters, numbers, and special characters.",
+        "github": "https://github.com/brunojoey/password-generator",
+        "deploy": "https://brunojoey.github.io/password-generator/",
         "claNM": "passwordImage"
     },
     {
         "title": "Budget Tracker",
         "image": "/images/budget-tracker-image.png",
-        "alt": "Budget Tracker Demo Gif",
-        "link": "https://boiling-lake-39406.herokuapp.com/",
+        "alt": "Budget Tracker Image",
+        "description": "Website to track your expenses in a chart that changes through the expenses and income you put into the application.",
+        "github": "https://github.com/brunojoey/budget-tracker",
+        "deploy": "https://boiling-lake-39406.herokuapp.com/",
         "claNM": "budgetImage"
     }
 ]

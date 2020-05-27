@@ -1,10 +1,12 @@
 import React from "react";
+import {Row} from "react-bootstrap";
 
 function Footer() {
     return (
         <footer>
+            <Row s={10}>
                 <span className="footer">
-                    <p> Made by Joey Bruno || 2020 </p>
+                    <p> Made by Joey Bruno | <a href="mailto: brunojoey12@gmail.com">brunojoey12@gmail.com</a> | 2020 </p>
                     <a href="mailto: brunojoey12@gmail.com" className="email mx-3">
                         <span className="fa fa-envelope"></span> 
                     </a>
@@ -15,6 +17,7 @@ function Footer() {
                         <span className="fa fa-linkedin"></span>
                     </a>
                 </span>
+            </Row>
         </footer>
     );
 };

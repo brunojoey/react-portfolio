@@ -1,7 +1,7 @@
 import React from "react";
 import buildRoutes from "../utils/buildRoutes";
 import Container from "../components/Container";
-import {Row, Col} from "react-bootstrap";
+import {Row, Col, Image} from "react-bootstrap";
 
 const joeyBruno = "/images/professional-joey-photo.jpg";
 
@@ -11,16 +11,11 @@ function Home() {
             <Container>
                 <h1>Joseph Angelo Bruno</h1>
                 <Row>
-                    <Col s={4}>
-                        <img src={buildRoutes(joeyBruno)} alt="Joey Bruno" className="joey m-5" height="400" width="400" />
+                    <Col s={3} m={3} lg={5}>
+                        <Image src={buildRoutes(joeyBruno)} alt="Joey Bruno" className="joey" fluid />
                     </Col>
-                    <Col s={8}>
-                        <div className="joeyText m-5">
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                            <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        </div>
+                    <Col className="joeyText m-5" s={9} m={8}>
+                        <p className="mt-5"> A Web Developer that has Social Media experience from working with Rizzy Home in Calhoun, Georgia where I gained valuable knowledge of brand organization and brand design. Recently gained a coding certificate in Vanderbilt's Web Developer Bootcamp. Proficient in HTML, CSS, JavaScript, React, Node.Js, Express, etc. An excellent communicator and collaborator that works well on team-based projects as well as independently. </p>
                     </Col>
                 </Row>
             </Container>
