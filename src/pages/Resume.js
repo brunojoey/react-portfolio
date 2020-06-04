@@ -59,7 +59,6 @@ function Resume() {
                 <p className="resumeProjects"> Exercise Tracker | Back-End Developer </p>
                 <p> Website to track your exercise activity through various workouts.</p>
                 <p> <strong>Role:</strong> Responsible for creating the functionality for the application to work. </p>
-                <p> <strong>Tools Utilized:</strong> HTML, JavaScript, API’s, Mongoose, and Express. </p>
                 <a className="deployedLinks btn btn-primary mr-3" href=" https://dry-badlands-01537.herokuapp.com"> Deployed Link</a>
                 <a className="resumeLinks btn btn-primary my-3" href="https://github.com/brunojoey/employee-summary"> Code Link</a>
             </div>
@@ -67,7 +66,6 @@ function Resume() {
                 <p className="resumeProjects"> Budget Tracker | Full Stack Developer </p>
                 <p> Website to track your expenses in a chart that changes through the expenses and income you put into the application.</p>
                 <p> <strong>Role:</strong> Responsible for creating an application with a budget, Node.Js, and Mongoose. </p>
-                <p> <strong>Tools Utilized:</strong> Manifest, Node.Js, Service Worker, Mongoose, and Heroku for hosting </p>
                 <a className="deployedLinks btn btn-primary mr-3" href="https://boiling-lake-39406.herokuapp.com/"> Deployed Link </a>
                 <a className="resumeLinks btn btn-primary my-3" href="https://github.com/brunojoey/budget-tracker"> Code Link </a>
             </div>
@@ -76,7 +74,6 @@ function Resume() {
                 <p className="resumeProjects"> Geolocation Dictionary Application | Front-End Developer </p>
                 <p> A dictionary application where you are able to find a definition of a specific word and also see where you are searching from. </p>
                 <p> <strong>Role:</strong> Responsible for co-designing the application. </p>
-                <p> <strong>Tools Utilized:</strong> HTML, Skeleton CSS, JavaScript, and hosting/domain from Github Pages </p>
                 <a className="deployedLinks btn btn-primary mr-3" href="https://brunojoey.github.io/geolocation-dictionary-app/"> Deployed Link </a>
                 <a className="resumeLinks btn btn-primary my-3" href="https://github.com/brunojoey/geolocation-dictionary-app"> Code Link </a>
             </div>

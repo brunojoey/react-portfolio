@@ -4,7 +4,7 @@ import ContainerDiv from "../Container";
 import { Image, Row, Col } from "react-bootstrap";
 import buildRoutes from "../../utils/buildRoutes";
 
-function ProjectCard({ title, image, alt, github, deploy, description, claNM }) {
+function ProjectCard({ title, image, alt, github, deploy, description, technologies, claNM }) {
     return (
         projects.map(project => (
             <ContainerDiv className="card projectBody mb-3">
@@ -21,6 +21,7 @@ function ProjectCard({ title, image, alt, github, deploy, description, claNM }) 
                     <Row>
                         <Col s={4} m={6} lg={12}>
                             <p className="description">{project.description}</p>
+                            <p className="technologies">Tools Utilized: {project.technologies}</p>
                         </Col>
                     </Row>
                     <Row className="buttons">

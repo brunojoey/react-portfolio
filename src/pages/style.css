@@ -30,8 +30,6 @@ footer {
     font-weight: bold;
 }
 
-
-
 .fa {
     font-size: 1.5em;
 }
@@ -119,7 +117,7 @@ footer {
     margin-left: 2em;
 }
 
-.description, .buttons {
+.description, .buttons, .technologies {
     display: flex;
     justify-content: center;
 }
