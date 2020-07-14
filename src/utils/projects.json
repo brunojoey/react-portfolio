@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Geolocation Dictionary Application",
+        "image": "/images/web_development/geolocation-app.png",
+        "alt": "Geolocation Dictionary Image",
+        "description": "A dictionary application where you are able to find a definition to a specific word and also see where you are searching from.",
+        "technologies": "HTML, Skeleton CSS, JavaScript, and Github Pages.",
+        "github": "https://github.com/brunojoey/geolocation-dictionary-app",
+        "deploy": "https://brunojoey.github.io/geolocation-dictionary-app/",
+        "claNM": "geolocationImage"
+    },
+    {
+        "title": "Exercise Tracker",
+        "image": "/images/web_development/exercise-tracker-screenshot.png",
+        "alt": "Exercise Tracker Image",
+        "description": "Website to track your exercise activity through various workouts.",
+        "technologies": "HTML, JavaScript, API’s, Mongoose, and Express",
+        "github": "https://github.com/brunojoey/exercise-tracker",
+        "deploy": "https://dry-badlands-01537.herokuapp.com/",
+        "claNM": "exerciseTrackerImage"
+    },
+    {
+        "title": "Password Generator",
+        "image": "/images/web_development/password-generator-screenshot.jpg",
+        "alt": "Password Generator Image",
+        "description": "An application to generate a password through characters, numbers, and special characters.",
+        "technologies": "HTML, CSS, and JavaScript",
+        "github": "https://github.com/brunojoey/password-generator",
+        "deploy": "https://brunojoey.github.io/password-generator/",
+        "claNM": "passwordImage"
+    },
+    {
+        "title": "Budget Tracker",
+        "image": "/images/web_development/budget-tracker-image.png",
+        "alt": "Budget Tracker Image",
+        "description": "Website to track your expenses in a chart that changes through the expenses and income you put into the application.",
+        "technologies": "Manifest, Node.Js, Service Worker, Mongoose, and Heroku.",
+        "github": "https://github.com/brunojoey/budget-tracker",
+        "deploy": "https://boiling-lake-39406.herokuapp.com/",
+        "claNM": "budgetImage"
+    }
+]

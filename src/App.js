@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import buildRoutes from "./utils/buildRoutes";
 import Home from "../src/pages/Home";
 import Portfolio from "../src/pages/Portfolio";
@@ -17,7 +17,8 @@ function App() {
           <Header />
           <Switch>
             <Route exact path={buildRoutes("/", "/home")} component={Home} />
-            <Route exact path={buildRoutes("/portfolio")} component={Portfolio} />
+            <Redirect exact from={buildRoutes("/portfolio")} to={buildRoutes("/portfolio/web_development")} />
+            <Route exact path={buildRoutes("/portfolio/:page?")} component={Portfolio} />
             <Route exact path={buildRoutes("/resume")} component={Resume} />
           </Switch>
           <Footer />

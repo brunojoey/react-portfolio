@@ -45,26 +45,13 @@ footer {
 
 /* End Navbar Styling */
 
-/* Resume Page */
+/* Resume Page Styling */
 
-.intro, .portfolioHeading, .summary, .techSkills, .education, .experience, .budgetTrackerPro, .exerciseTrackerPro, .geolocationPro {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
 
-.resumeHeadings, .resumeProjects {
-    text-decoration: underline;
-    font-weight: 700;
-    margin-bottom: 1em;
-}
 
-.resumeLinks:hover, .deployedLinks:hover {
-    background-color: transparent;
-}
+/* End Resume Page Styling */
 
-/* End Resume Page */
-
-/* Project Page */
+/* Web Development Page Styling */
 .card {
     background-color: rgba(0, 0, 100, .1);
 }
@@ -122,9 +109,13 @@ footer {
     justify-content: center;
 }
 
-/* End Project Page */
+/* End Web Development Page Styling */
 
-/* Home Page */
+/* Social Media Page Styling*/
+
+/* End Social Media Page Styling*/
+
+/* Home Page Styling */
 
 .joey {
     border: .5em solid;
@@ -132,4 +123,4 @@ footer {
 }
 
 
-/* End Home Page */
+/* End Home Page Styling */

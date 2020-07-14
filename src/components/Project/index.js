@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../../projects.json";
+import projects from "../../utils/projects.json";
 import ContainerDiv from "../Container";
 import { Image, Row, Col } from "react-bootstrap";
 import buildRoutes from "../../utils/buildRoutes";
