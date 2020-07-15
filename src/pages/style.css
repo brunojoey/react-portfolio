@@ -138,11 +138,13 @@ footer {
 .rugCatalogRow, .textileCatalogRow {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 .allSocialMediaImages {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 /* End Social Media Page Styling */
