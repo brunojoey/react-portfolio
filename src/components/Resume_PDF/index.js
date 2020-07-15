@@ -15,18 +15,20 @@ function ResumePDF() {
   }
 
   return (
-    <div>
-      <Row>
-        <h3>My Resumé</h3>
+      <>
+    <ContainerDiv>
+      <Row className='resume-title mt-3'>
+        <h3 className='resume-title'>My Resumé</h3>
       </Row>
-      <Row>
-        <Col>
-          <Document file={MyResume} onLoadSuccess={onDocumentLoadSuccess} className='joeyResume'>
-            <Page pageNumber={pageNumbers} width={600} />
+    </ContainerDiv>
+      <Row className='mt-3'>
+        <Col className='joey-resume'>
+          <Document file={MyResume} onLoadSuccess={onDocumentLoadSuccess} >
+            <Page pageNumber={pageNumbers} />
           </Document>
         </Col>
       </Row>
-    </div>
+    </>
   );
 }
 

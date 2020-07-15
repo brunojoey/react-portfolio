@@ -3,7 +3,7 @@ import ResumePDF from '../components/Resume_PDF';
 
 function Resume() {
     return (
-        <div style={{justifyContent: 'center'}}>
+        <div>
             <ResumePDF />
         </div>
     )

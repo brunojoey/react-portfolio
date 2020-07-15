@@ -28,7 +28,7 @@ const Portfolio = props => {
   return (
     <>
       <AppBar position="static">
-        <Tabs value={selectedTab} onChange={handleChange}>
+        <Tabs value={selectedTab} onChange={handleChange} className='tab-bar' indicatorColor="primary">
           <Tab label="Web Development" />
           <Tab label="Social Media" />
         </Tabs>

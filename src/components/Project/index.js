@@ -8,12 +8,12 @@ function ProjectCard({ title, image, alt, github, deploy, description, technolog
     return (
         projects.map(project => (
             <ContainerDiv className="card projectBody mb-3">
-                <Row>
+                <Row className='card-title'>
                     <Col s={5} lg={10}>
-                        <h3 className="card-title mt-3 p-3">{project.title}</h3>
+                        <h3 className="card-title mt-3">{project.title}</h3>
                     </Col>
                 </Row>
-                <Row className="allImages">
+                <Row className="allWebImages mb-3">
                     <Col s={4} m={6} lg={8}>
                         <Image className={project.claNM} src={buildRoutes(project.image)} alt={project.alt} />
                     </Col>

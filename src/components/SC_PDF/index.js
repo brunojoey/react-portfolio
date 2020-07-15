@@ -17,14 +17,13 @@ function SocialMediaPDF() {
   return (
     <>
       <ContainerDiv>
-        <Row>
-          <Col s={5} lg={10}>
+        <Row className='card-title'>
+          <Col s={5} lg={10} >
             <h3 className="card-title mt-3">Rizzy Home's 2019 Catalog | Rug Section</h3>
           </Col>
         </Row>
-
-        <Row>
-          <Col>
+        <Row >
+          <Col className='rugCatalogRow' s={4} l={12}>
             <Document
               file={RugSample}
               onLoadSuccess={onDocumentLoadSuccess}
@@ -48,14 +47,13 @@ function SocialMediaPDF() {
         </Row>
       </ContainerDiv>
       <ContainerDiv>
-        <Row>
+        <Row className='card-title'>
           <Col s={5} lg={10}>
             <h3 className="card-title mt-3">Rizzy Home's 2019 Catalog | Textile Section</h3>
           </Col>
         </Row>
-
-        <Row>
-          <Col>
+        <Row >
+          <Col className='textileCatalogRow'>
             <Document
               file={TextileSample}
               onLoadSuccess={onDocumentLoadSuccess}

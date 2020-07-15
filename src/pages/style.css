@@ -43,11 +43,20 @@ footer {
     font-weight: 700;
 }
 
+.tab-bar {
+    background-color: white;
+    color: darkblue;
+    padding-left: 1em;
+}
+
 /* End Navbar Styling */
 
 /* Resume Page Styling */
 
-
+.resume-title, .joey-resume {
+    display: flex;
+    justify-content: center;
+}
 
 /* End Resume Page Styling */
 
@@ -59,7 +68,7 @@ footer {
 .budgetImage, .passwordImage {
     width: 45em;
     height: 27em;
-    margin: 1em;
+    /* margin: 1em; */
     border: .5em solid;
     border-color: rgb(0, 80, 150);
 }
@@ -67,7 +76,7 @@ footer {
 .exerciseTrackerImage {
     width: 35em;
     height: 27em; 
-    margin: 1em;
+    /* margin: 1em; */
     border: .5em solid;
     border-color: rgb(0,80,150);
 }
@@ -75,19 +84,20 @@ footer {
 .geolocationImage {
     width: 30em;
     height: 27em;
-    margin: 1em;
+    /* margin: 1em; */
     border: .5em solid;
     border-color: rgb(0, 80, 150);
 }
 
-.allImages {
+.allWebImages {
     display: flex;
     justify-content: center;
 }
 
 .card-title {
-    text-align: center;
     font-weight: 700;
+    display: flex; 
+    justify-content: center;
 }
 
 .deploy, .githubProject {
@@ -111,9 +121,31 @@ footer {
 
 /* End Web Development Page Styling */
 
-/* Social Media Page Styling*/
+/* Social Media Page Styling */
 
-/* End Social Media Page Styling*/
+.worldTurtleDay, .dealOfTheWeek, .firstDayFall, .christmasEve {
+    border: .5em solid;
+    border-color: rgb(0, 80, 150);
+    width: 50%;
+}
+
+.rugCatalog, .textileCatalog {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.rugCatalogRow, .textileCatalogRow {
+    display: flex;
+    justify-content: center;
+}
+
+.allSocialMediaImages {
+    display: flex;
+    justify-content: center;
+}
+
+/* End Social Media Page Styling */
 
 /* Home Page Styling */
 

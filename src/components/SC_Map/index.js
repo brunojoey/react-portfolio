@@ -8,7 +8,7 @@ function SocialMediaMap({ title, image, alt, description, technologies, claNM })
     return (
         socials.map(social => (
             <ContainerDiv className="card mb-3">
-                <Row>
+                <Row className='card-title'>
                     <Col s={5} lg={10}>
                         <h3 className="card-title mt-3">{social.title}</h3>
                     </Col>
